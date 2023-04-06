@@ -1,0 +1,126 @@
+body{
+ margin: auto;
+ background-image: url();
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: sans-serif
+}
+ 
+.containerregister{
+ width: 400px;
+ height: 500px;
+ text-align: center;
+ margin: 0 auto;
+ background-color: #000;
+ margin-top: 160px;
+ color:#fff;
+ border-radius: 5%;
+ 
+}
+ 
+.containerregister img{
+ width: 150px;
+ height: 150px;
+ margin-top: -75px;
+ border-radius: 50%;
+ 
+}
+.containerlogin{
+ width: 400px;
+ height: 460px;
+ text-align: center;
+ margin: 0 auto;
+ background-color: #000;
+ margin-top: 160px;
+ color:#fff;
+ border-radius: 5%;
+ 
+}
+.containerlogin img{
+ width: 150px;
+ height: 150px;
+ margin-top: -75px;
+ border-radius: 50%;
+ 
+}
+ 
+input[type="username"],input[type="password"],input[type="email"]{
+ margin-top: 30px;
+ height: 45px;
+ width: 300px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ padding-left: 10px;
+ text-align:center;
+ background: transparent;
+ border: 0px;
+ border-bottom: 1px solid #fff;
+ color: #fff;
+}
+
+
+.a input[type="submit"]{
+	margin-top:40px;
+	border:none;
+	outline: none;
+    height: 40px;
+	width:50%;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;	
+}
+ .a input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.b input[type="submit"]{
+ padding: 15px 25px;
+ border: none;
+ margin-right:50%;
+ margin-top:20px;
+ background: transparent;
+ color: #fff;
+}
+ .b input[type="submit"]:hover
+{
+    cursor: pointer;
+     color:red;
+   
+}
+.create input[type="submit"]{
+	margin-top:1px;
+	border:none;
+	outline: none;
+    height: 40px;
+	width:50%;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;	
+}
+.create input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.c input[type="submit"]{
+	margin-top:40px;
+	border:none;
+	outline: none;
+    height: 40px;
+	width:50%;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;	
+}
+.text{
+	margin-top:10px;
+	color: red;
+}
